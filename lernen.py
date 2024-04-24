@@ -80,17 +80,17 @@ print (r.replace('r','R'))
 #***************************************************************************************************
 
 # Number:
-print (type(5)) # 3shan a3rf no3 al7aga. 
-print (type (5.2)) # da no3o float
-print (str(5*5) + ' Years') # 3shan agm3 number m3a string 
-print (float (19) ) #3shan a7wel integer ly float
-print (int(10.5)) # 3shan a7wel mn float ly Integer
-print (round(5.3)) # 3shan a7wel float ly a8rb integer
-from math import * # 3shan a8dr a3ml kol almo3amlat al7sabia
-print (floor(5.9)) # 3shan ageeb a8la r8m mn al float ly al integer
-print (ceil(5.1)) # 3shan ageeb a3la r8m mn l float ly al integer 
-print ( max (432, 3244)) # 3shan ageeb a3la 8ema 
-print ( min (3324, 2344)) # #shan ageb 8la 8ema
+#print (type(5)) # 3shan a3rf no3 al7aga. 
+#print (type (5.2)) # da no3o float
+#print (str(5*5) + ' Years') # 3shan agm3 number m3a string 
+#print (float (19) ) #3shan a7wel integer ly float
+#print (int(10.5)) # 3shan a7wel mn float ly Integer
+#print (round(5.3)) # 3shan a7wel float ly a8rb integer
+#from math import * # 3shan a8dr a3ml kol almo3amlat al7sabia
+#print (floor(5.9)) # 3shan ageeb a8la r8m mn al float ly al integer
+#print (ceil(5.1)) # 3shan ageeb a3la r8m mn l float ly al integer 
+#print ( max (432, 3244)) # 3shan ageeb a3la 8ema 
+#print ( min (3324, 2344)) # #shan ageb 8la 8ema
 
 # Input 
 #name = input ('enter your name')
@@ -111,4 +111,7 @@ lista = ['es gab ein paar', 2 , True, [1,2,3,[1,2,3]]]
 print (lista)
 print (lista[3][3] [0])
 
-print ('Hosam')
+lista.append('Ali')
+lista.insert(1,'Ali')
+print (lista)
+
